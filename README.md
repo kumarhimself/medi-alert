@@ -13,7 +13,7 @@ Current tasks to complete.
 - [x] Add Flowbite to project.
 - [x] Create Tailwind theme.
 - [x] Create Google Cloud Project with free credits.
-- [ ] Create Gemini API.
+- [x] Create Gemini API.
 - [ ] Create test connection betweeen frontend and Gemini API.
 - [ ] Build Firebase authentication.
 
