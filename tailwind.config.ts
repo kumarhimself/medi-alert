@@ -12,10 +12,13 @@ module.exports = {
         primary: "#006aff",
         secondary: "#3388ff",
         base: "#000",
-      } 
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+        mono: ["Menlo", "monospace"],
+      },
     },
   },
-  plugins: [
-    require("flowbite/plugin")
-  ],
+  plugins: [require("flowbite/plugin")],
 };
