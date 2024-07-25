@@ -29,6 +29,7 @@
   }
 }
 
+
 body {
     font-family: var(--font-body);
   }
@@ -37,7 +38,7 @@ body {
     font-family: var(--font-heading);
   }
   
-  /* Additional styling for other elements */
   p, span, a {
     font-family: var(--font-body);
   }
+

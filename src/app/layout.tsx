@@ -2,6 +2,7 @@ import React from "react";
 import { Manrope } from "next/font/google";
 import "../../styles/globals.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const fontHeading = Manrope({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <body className={(fontHeading.variable, fontBody.variable)}>
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
